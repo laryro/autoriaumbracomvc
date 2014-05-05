@@ -1,0 +1,16 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+    var faqs = Model.DescendantsOrSelf("FAQ").FirstOrDefault();
+}
+
+<h1>FAQs</h1>
+
+<div class="well">
+    <div class="accordion">
+        @foreach (var item in faqs.Children())
+        {
+            <h4>@item.pergunta</h4>
+            <div class="richtext">@item.resposta</div>
+        }
+    </div>
+</div>

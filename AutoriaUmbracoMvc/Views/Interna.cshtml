@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Master.cshtml";
+}
+
+@section Css{
+    <link href="~/css/interna.css" rel="stylesheet" />
+}
+
+@Umbraco.RenderMacro("InternaConteudo")

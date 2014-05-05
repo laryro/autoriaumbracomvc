@@ -1,0 +1,617 @@
+﻿2014-05-05 14:36:35,907 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-05-05 14:36:35,955 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 34ms)
+2014-05-05 14:36:35,985 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-05-05 14:36:36,880 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 891ms)
+2014-05-05 14:36:37,117 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-05-05 14:36:37,129 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+2014-05-05 14:36:37,131 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-05-05 14:36:37,147 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 15ms)
+2014-05-05 14:36:37,214 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-05-05 14:36:37,227 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 12ms)
+2014-05-05 14:36:37,228 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-05-05 14:36:37,246 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 29 (took 18ms)
+2014-05-05 14:36:37,260 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-05-05 14:36:37,275 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2014-05-05 14:36:37,276 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-05-05 14:36:37,297 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 21ms)
+2014-05-05 14:36:38,703 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,703 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,706 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,706 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,707 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,707 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,707 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,707 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,708 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,709 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,710 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,711 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,712 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,713 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,713 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,713 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,713 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,924 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,925 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:38,926 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,222 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,223 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:39,224 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:40,542 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:40,544 [13] WARN  Umbraco.Web.UmbracoModule - [Thread 8] Umbraco is not configured
+2014-05-05 14:36:41,753 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:36:48,477 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:10,605 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:11,242 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 14] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:16,783 [13] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:16,897 [13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Executing installation step: Permissions
+2014-05-05 14:38:16,992 [13] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Step completed (took 94ms)
+2014-05-05 14:38:17,248 [13] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 9] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-05-05 14:38:49,815 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Determining hash of code files on disk
+2014-05-05 14:38:49,880 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Hash determined (took 47ms)
+2014-05-05 14:38:49,932 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-05-05 14:38:50,975 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 1039ms)
+2014-05-05 14:38:51,273 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-05-05 14:38:51,302 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 28ms)
+2014-05-05 14:38:51,303 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-05-05 14:38:51,326 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 22ms)
+2014-05-05 14:38:51,403 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-05-05 14:38:51,424 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 20ms)
+2014-05-05 14:38:51,426 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-05-05 14:38:51,453 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 29 (took 26ms)
+2014-05-05 14:38:51,469 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-05-05 14:38:51,500 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 30ms)
+2014-05-05 14:38:51,502 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-05-05 14:38:51,524 [17] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 22ms)
+2014-05-05 14:38:53,023 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,023 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,024 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,025 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,026 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,035 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,035 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,035 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,036 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,247 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,248 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,249 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,555 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,556 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:53,557 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 20] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:55,175 [17] INFO  Umbraco.Core.ApplicationContext - [Thread 13] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:38:55,571 [17] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 13] Executing installation step: DatabaseConfigure
+2014-05-05 14:38:55,637 [17] INFO  Umbraco.Core.DatabaseContext - [Thread 13] Configured a new ConnectionString using the 'System.Data.SqlClient' provider.
+2014-05-05 14:38:55,700 [17] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 13] Step completed (took 129ms)
+2014-05-05 14:38:55,893 [17] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 8] Application shutdown. Reason: ConfigurationChange
+2014-05-05 14:38:58,161 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2014-05-05 14:38:58,231 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 47ms)
+2014-05-05 14:38:58,278 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-05-05 14:38:58,569 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 286ms)
+2014-05-05 14:38:59,623 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-05-05 14:38:59,627 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-05-05 14:38:59,637 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-05-05 14:38:59,655 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 17ms)
+2014-05-05 14:38:59,758 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-05-05 14:38:59,769 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 11ms)
+2014-05-05 14:38:59,770 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-05-05 14:38:59,787 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 29 (took 16ms)
+2014-05-05 14:38:59,796 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-05-05 14:38:59,801 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2014-05-05 14:38:59,802 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-05-05 14:38:59,808 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2014-05-05 14:39:02,315 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,315 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,316 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,317 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,318 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,319 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,320 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,620 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,621 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,622 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,623 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,624 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,625 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,625 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,625 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:02,625 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,614 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,615 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,616 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,617 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:03,618 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 6] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:09,801 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:10,418 [7] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Executing installation step: DatabaseInstall
+2014-05-05 14:39:10,437 [7] INFO  Umbraco.Core.DatabaseContext - [Thread 8] Database configuration status: Started
+2014-05-05 14:39:11,428 [7] INFO  Umbraco.Core.DatabaseContext - [Thread 8] Database requires upgrade
+2014-05-05 14:39:11,428 [7] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Step completed (took 1009ms)
+2014-05-05 14:39:12,021 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 14] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:12,030 [7] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 14] Executing installation step: UmbracoVersion
+2014-05-05 14:39:12,066 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-05-05 14:39:12,293 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 226ms)
+2014-05-05 14:39:12,385 [7] INFO  Umbraco.Core.ApplicationContext - [Thread 14] CurrentVersion different from configStatus: '7.1.1',''
+2014-05-05 14:39:12,388 [7] WARN  Umbraco.Web.WebBootManager - [Thread 14] Could not initialize the DefaultServerMessenger, the application is not configured or the database is not configured
+2014-05-05 14:39:12,425 [7] INFO  umbraco.content - [Thread 8] Loading content from database...
+2014-05-05 14:39:12,481 [7] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - [Thread 14] Updated version number from 1 to 118298273
+2014-05-05 14:39:13,070 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 14] User Id: 0 logged in
+2014-05-05 14:39:14,566 [7] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 14] Step completed (took 2534ms)
+2014-05-05 14:39:14,741 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 5] Application shutdown. Reason: ConfigurationChange
+2014-05-05 14:39:17,453 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2014-05-05 14:39:17,524 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 52ms)
+2014-05-05 14:39:17,524 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-05-05 14:39:17,757 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 229ms)
+2014-05-05 14:39:18,551 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-05-05 14:39:18,552 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2014-05-05 14:39:18,553 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-05-05 14:39:18,555 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 2ms)
+2014-05-05 14:39:18,577 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-05-05 14:39:18,582 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2014-05-05 14:39:18,582 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-05-05 14:39:18,589 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 29 (took 6ms)
+2014-05-05 14:39:18,595 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-05-05 14:39:18,598 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2014-05-05 14:39:18,598 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-05-05 14:39:18,601 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2014-05-05 14:39:21,766 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-05-05 14:39:26,222 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 4455ms)
+2014-05-05 14:39:26,267 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ITree
+2014-05-05 14:39:26,575 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 307ms)
+2014-05-05 14:39:26,605 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Initializing Examine and binding to business logic events
+2014-05-05 14:39:27,431 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-05-05 14:39:27,485 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 54ms)
+2014-05-05 14:39:28,585 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-05-05 14:39:28,688 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 102ms)
+2014-05-05 14:39:32,087 [18] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2014-05-05 14:39:32,209 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Adding examine event handlers for index providers: 3
+2014-05-05 14:39:32,231 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplication
+2014-05-05 14:39:32,298 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 66ms)
+2014-05-05 14:39:35,706 [18] INFO  umbraco.BusinessLogic.Log - [Thread 14] Log scrubbed.  Removed all items older than 2014-03-06 14:39:35
+2014-05-05 14:39:35,711 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 14] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2014-05-05 14:40:07,344 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2014-05-05 14:40:07,383 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 26ms)
+2014-05-05 14:40:07,413 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-05-05 14:40:08,221 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 34 (took 805ms)
+2014-05-05 14:40:08,484 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-05-05 14:40:08,495 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+2014-05-05 14:40:08,496 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-05-05 14:40:08,518 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 14 (took 21ms)
+2014-05-05 14:40:08,567 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-05-05 14:40:08,582 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 14ms)
+2014-05-05 14:40:08,582 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-05-05 14:40:08,607 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 29 (took 24ms)
+2014-05-05 14:40:08,614 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-05-05 14:40:08,630 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 16ms)
+2014-05-05 14:40:08,631 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-05-05 14:40:08,652 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 21ms)
+2014-05-05 14:40:10,764 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-05-05 14:40:10,785 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 20ms)
+2014-05-05 14:40:10,824 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ITree
+2014-05-05 14:40:10,847 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 23ms)
+2014-05-05 14:40:10,880 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Initializing Examine and binding to business logic events
+2014-05-05 14:40:11,256 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Adding examine event handlers for index providers: 3
+2014-05-05 14:40:11,273 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplication
+2014-05-05 14:40:11,312 [25] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 38ms)
+2014-05-05 14:40:17,159 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-05-05 14:40:17,207 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 47ms)
+2014-05-05 14:40:20,375 [25] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-05-05 14:40:20,375 [25] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-05-05 14:40:20,549 [25] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2014-05-05 14:40:20,566 [25] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 17ms)
+2014-05-05 14:40:21,571 [25] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-05-05 14:40:21,631 [25] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 60ms)
+2014-05-05 14:43:38,644 [25] INFO  umbraco.content - [Thread 21] Loading content from disk cache...
+2014-05-05 14:43:48,634 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-05-05 14:43:48,669 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 35ms)
+2014-05-05 14:43:51,926 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.interfaces.IDataType
+2014-05-05 14:43:51,997 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 71ms)
+2014-05-05 14:43:52,051 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-05-05 14:43:52,073 [25] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 22ms)

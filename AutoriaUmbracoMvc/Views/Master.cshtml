@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="curso, curso pre-vestibular, curso redação, redação" />
+    <meta name="description" content="Curso Autoria" />
+    <meta name="author" content="Kaos Development - www.kaosdev.com.br/" />
+    <meta name="mssmarttagspreventparsing" content="true" />
+    <meta name="googlebot" content="all" />
+    <meta http-equiv="content-language" content="pt-br">
+
+    <link href="/img/common/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link href="~/css/lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/autoria.css" rel="stylesheet" />
+    <link href="~/css/richtext.css" rel="stylesheet" />
+    @RenderSection("Css", false)
+    
+    <script src="/scripts/lib/jquery-1.9.1.min.js"></script>
+    <script src="~/scripts/lib/jquery-ui-1.10.4.min.js"></script>
+    <script src="~/scripts/lib/bootstrap.min.js"></script>
+    @RenderSection("Scripts", false)
+    
+    <title>Autoria</title>
+    @*<title>@Umbraco.RenderMacro("TituloPagina")</title>*@
+</head>
+<body>
+
+    @Umbraco.RenderMacro("Header")
+    
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    @Umbraco.RenderMacro("Header")
+
+</body>
+</html>
+
+
+
+
+
