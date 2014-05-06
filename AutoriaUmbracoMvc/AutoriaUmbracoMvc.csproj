@@ -214,15 +214,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\EmailHelper.cs" />
+    <Compile Include="Controllers\ContatoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContatoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="assets\img\logo.png" />
     <Content Include="css\autoria.css" />
     <Content Include="css\dummy.txt" />
     <Content Include="css\interna.css" />
@@ -230,6 +234,7 @@
     <Content Include="css\lib\bootstrap.min.css" />
     <Content Include="css\lib\jquery-ui-1.10.4.css" />
     <Content Include="css\richtext.css" />
+    <Content Include="css\fonts.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="masterpages\dummy.txt" />
@@ -251,8 +256,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="assets\fonts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -341,6 +345,9 @@
     <Content Include="macroScripts\ListagemNoticias.cshtml" />
     <Content Include="macroScripts\NoticiaConteudo.cshtml" />
     <Content Include="macroScripts\RedirectPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
