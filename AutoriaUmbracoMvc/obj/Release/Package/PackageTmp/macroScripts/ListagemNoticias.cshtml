@@ -1,0 +1,23 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var noticias = Model.DescendantsOrSelf("Noticias").FirstOrDefault();
+    var qtdDestaques = Model.qtdDestaques;
+    var i = 0;
+}
+
+qtdDestaques : @qtdDestaques
+<ul>
+        
+    @foreach (var noticia in noticias.Children.Take(qtdDestaques))
+    {
+        var datahora = noticia.dataHora;
+        var hora = datahora.ToString("HH:mm:ss");
+        var data = datahora.ToString("dd/MM/yyyy");
+        <li>
+            <a href="@noticia.Url">@noticia.Name</a><br />
+            em @data às @hora
+        </li>
+        i++;
+    }
+</ul>

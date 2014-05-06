@@ -1,0 +1,8 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var node = Model.redirect;
+    var link = Library.NodeById(node).Url;
+
+    Response.Redirect(link);
+}

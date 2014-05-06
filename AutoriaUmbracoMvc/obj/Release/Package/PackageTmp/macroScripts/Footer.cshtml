@@ -1,0 +1,20 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+    var paginas = Model.Children;
+}
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+        </div>
+    </div>
+    <h1>Autoria</h1>
+    <nav class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        @foreach (var pagina in home.Children.Where("documentTypeAlias != \"ConfiguracoesHome\""))
+        {
+            <li><a href="@pagina.Url">@pagina.Name</a></li>
+        }
+        </ul>
+    </nav>
+
+</header>

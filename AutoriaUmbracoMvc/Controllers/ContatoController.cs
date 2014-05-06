@@ -14,6 +14,7 @@ namespace AutoriaUmbracoMvc.Controllers
 {
     public class ContatoController : Umbraco.Web.Mvc.SurfaceController  
     {
+        /*
         //
         // GET: /Contato/
 
@@ -60,6 +61,6 @@ namespace AutoriaUmbracoMvc.Controllers
 
             return View();
         }
-
+        */
     }
 }

@@ -1,0 +1,79 @@
+﻿main.container {
+    padding-top: 87px;
+    box-shadow: 0px -7px 20px rgba(0,0,0,0.2);
+    padding-bottom: 30px;
+}
+
+
+header.navbar-default {
+    background-color: #092E68;
+    height: 87px;
+    border: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #cccccc;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    text-decoration: underline;
+    line-height:20px;
+}
+
+.container {
+    width: 940px;
+}
+
+header .container>.navbar-header, 
+header .container-fluid>.navbar-header, 
+header .container>.navbar-collapse, 
+header .container-fluid>.navbar-collapse,
+header .navbar-brand {
+    height: 87px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+    float: right;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: #2C518A;
+    margin-top: 14px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background: transparent;
+    color: #ccc;
+}
+
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus {
+    color: #fff;
+}
+
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus {
+    background: transparent;
+    color: #ccc;
+}
+
+body {
+    font-family: "Museo300", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    color: #07439b;
+    text-align: center;
+}
