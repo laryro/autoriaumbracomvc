@@ -1,0 +1,56 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<AutoriaUmbracoMvc.Models.ContatoModel>
+
+@using (Html.BeginUmbracoForm("Contato", "Contato"))
+{
+    
+    <h3>Contato</h3>
+            <p><strong>Preencha os campos abaixo para nos enviar um e-mail</strong></p>
+            <form id="form-contato">
+                <div class="clear">
+                    <ul class="simple-form">
+                        <li>
+                            @Html.LabelFor(m => m.Nome)
+                            @Html.TextBoxFor(m => m.Nome)
+                        </li>
+                        <li>
+                            @Html.LabelFor(m => m.Email)
+                            @Html.TextBoxFor(m => m.Email)
+                        </li>
+                        <li>
+                            @Html.LabelFor(m => m.Telefone)
+                            @Html.TextBoxFor(m => m.Telefone)
+                        </li>
+                        <li>
+                            @Html.LabelFor(m => m.Celular)
+                            @Html.TextBoxFor(m => m.Celular)
+                        </li>
+                        <li>
+                            @Html.LabelFor(m => m.Assunto)
+                            @Html.TextBoxFor(m => m.Assunto)
+                            @*Html.DropDownListFor(m => m.Assunto)*@
+                            <select id="Assunto" name="Assunto">
+                                <option value="value1" selected>Envie sua redação</option> 
+                                <option value="value2" >Dúvidas</option>
+                                <option value="value3" >Reclamações</option>
+                                <option value="value4" >Sugestões</option>
+                            </select>
+                            @*<div class="anexo">
+                                <a href="#" class="bt azul btn-anexar" for="Arquivo">Anexe sua redação</a>
+                                <span class="Arquivo-nome"></span>
+                                <input type="file" id="Arquivo" name="Arquivo" style="display:none"/>
+                            </div>*@
+                        </li>
+                        <li class="mensagem">
+                            @Html.LabelFor(m => m.Mensagem)
+                            @Html.TextAreaFor(m => m.Mensagem)
+                        </li>
+                        <li>
+                            <input class="bt azul" type="submit" value="Enviar">
+                        </li>
+                    </ul>
+                                            
+                </div>
+            </form>
+    
+    
+}
