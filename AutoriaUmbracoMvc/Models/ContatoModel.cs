@@ -10,7 +10,17 @@ namespace AutoriaUmbracoMvc.Models
 {
     public class ContatoModel
     {
+        public ContatoModel() {
+            var cidade = new Dictionary<string, string>();
 
+            cidade.Add("Dúvidas", "Dúvidas");
+            cidade.Add("Reclamações", "Reclamações");
+            cidade.Add("Sugestões", "Sugestões");
+
+            this.Assuntos = new SelectList(
+            cidade.Select(x => new { value = x.Key, text = x.Value }), "value", "text"); 
+        }
+       
         [Required(ErrorMessage = "Campo Nome obrigatório"), RegularExpression(@"^[^0-9]{1,}", ErrorMessage = "Nome inválido")]
         public string Nome { get; set; }
 
@@ -25,6 +35,8 @@ namespace AutoriaUmbracoMvc.Models
 
         [RegularExpression(@"^\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}", ErrorMessage = "Celular invalido")]
         public string Celular { get; set; }
+
+        public SelectList Assuntos { get; set; }
 
         [Required(ErrorMessage = "Campo Assunto obrigatório")]
         public string Assunto { get; set; }

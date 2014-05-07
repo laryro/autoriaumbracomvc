@@ -38,7 +38,7 @@ namespace AutoriaUmbracoMvc.Controllers
                                 "Celular: " + form.Celular + "</p>" +
                                 "<p>" + form.Mensagem + "</p>");
 
-                msg.Subject = form.Assunto;
+                msg.Subject = "[Site Autoria]" + form.Assunto;
 
                 msg.IsBodyHtml = true;
                 msg.BodyEncoding = System.Text.Encoding.UTF8;

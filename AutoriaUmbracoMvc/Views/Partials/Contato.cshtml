@@ -25,19 +25,7 @@
                         </li>
                         <li>
                             @Html.LabelFor(m => m.Assunto)
-                            @Html.TextBoxFor(m => m.Assunto)
-                            @*Html.DropDownListFor(m => m.Assunto)*@
-                            <select id="Assunto" name="Assunto">
-                                <option value="value1" selected>Envie sua redação</option> 
-                                <option value="value2" >Dúvidas</option>
-                                <option value="value3" >Reclamações</option>
-                                <option value="value4" >Sugestões</option>
-                            </select>
-                            @*<div class="anexo">
-                                <a href="#" class="bt azul btn-anexar" for="Arquivo">Anexe sua redação</a>
-                                <span class="Arquivo-nome"></span>
-                                <input type="file" id="Arquivo" name="Arquivo" style="display:none"/>
-                            </div>*@
+                            @Html.DropDownListFor(m => m.Assunto, Model.Assuntos)
                         </li>
                         <li class="mensagem">
                             @Html.LabelFor(m => m.Mensagem)
