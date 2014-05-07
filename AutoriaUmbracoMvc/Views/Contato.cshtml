@@ -5,6 +5,10 @@
     var model = new ContatoModel();
 }
 
+@section Css{
+    <link href="/css/contato.css" rel="stylesheet" />
+}
+
 @Html.Partial("Contato", model)
 
 @Umbraco.RenderMacro("ContatoConteudo")

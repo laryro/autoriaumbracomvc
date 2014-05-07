@@ -1,11 +1,10 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<AutoriaUmbracoMvc.Models.ContatoModel>
 
-@using (Html.BeginUmbracoForm("Contato", "Contato"))
+@using (Html.BeginUmbracoForm("Contato", "Contato", FormMethod.Post))
 {
     
     <h3>Contato</h3>
             <p><strong>Preencha os campos abaixo para nos enviar um e-mail</strong></p>
-            <form id="form-contato">
                 <div class="clear">
                     <ul class="simple-form">
                         <li>
@@ -50,7 +49,6 @@
                     </ul>
                                             
                 </div>
-            </form>
     
     
 }

@@ -14,6 +14,7 @@ namespace AutoriaUmbracoMvc.Controllers
 {
     public class ContatoController : Umbraco.Web.Mvc.SurfaceController  
     {
+        
         [HttpPost]
         public ActionResult Contato(ContatoModel form)
         {
@@ -24,31 +25,20 @@ namespace AutoriaUmbracoMvc.Controllers
 
                 MailAddress endereco = new MailAddress("beatriz.carreiro@inspira.com.br");
                 SmtpClient smtp = new SmtpClient();
+                
 
                 smtp.EnableSsl = true;
+                
 
                 MailMessage msg = new MailMessage("beatriz.carreiro@inspira.com.br", endereco.Address);
-                msg.Subject = uQuery.GetCurrentNode().Name;
+                msg.Body = string.Format(
+                                "<h3>Contato Autoria</h3>" +
+                                "<p>Nome: " + form.Nome + "<br/>" +
+                                "Telefone: " + form.Telefone + "<br/>" +
+                                "Celular: " + form.Celular + "</p>" +
+                                "<p>" + form.Mensagem + "</p>");
 
-
-                //foreach (var prop in form.GetType().GetProperties())
-                //{
-                //    if (prop.PropertyType != typeof(SelectList) && prop.Name != "Cep2")
-                //    {
-                //        if (prop.PropertyType == typeof(Boolean))
-                //        {
-                //            msg.Body += prop.Name + " : " + (prop.GetValue(form, null).ToString() == "True" ? "Verdadeiro" : "Falso") + "<br/>";
-                //        }
-                //        else if (prop.Name == "Cep")
-                //        {
-                //            msg.Body += prop.Name + " : " + prop.GetValue(form, null) + "-" + form.GetType().GetProperty("Cep2").GetValue(form, null) + "<br/>";
-                //        }
-                //        else
-                //        {
-                //            msg.Body += prop.Name + " : " + prop.GetValue(form, null) + "<br/>";
-                //        }
-                //    }
-                //}
+                msg.Subject = form.Assunto;
 
                 msg.IsBodyHtml = true;
                 msg.BodyEncoding = System.Text.Encoding.UTF8;

@@ -228,6 +228,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\img\logo.png" />
     <Content Include="css\autoria.css" />
+    <Content Include="css\contato.css" />
     <Content Include="css\dummy.txt" />
     <Content Include="css\interna.css" />
     <Content Include="css\lib\bootstrap-theme.min.css" />
