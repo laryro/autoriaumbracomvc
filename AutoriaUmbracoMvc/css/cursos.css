@@ -1,0 +1,9 @@
+img {
+    width: 100%;
+}
+.row {
+    padding: 0 30px;
+}
+.col-md-8 {
+    padding-top: 50px;
+}

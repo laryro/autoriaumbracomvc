@@ -1,0 +1,17 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+    var destaques = Model.DescendantsOrSelf("DestaquesHome").FirstOrDefault();
+}
+<div class="row">
+    @foreach (var destaque in destaques.Children())
+    {
+        <div class="col-md-4">
+            <h3>@destaque.titulo</h3>
+            <p>@destaque.descricao</p>
+            @{
+                var link = Library.NodeById(@destaque.link);    
+            }
+            <a href="@link.Url" title="Saiba mais">Saiba mais</a>
+        </div>
+    }
+</div>

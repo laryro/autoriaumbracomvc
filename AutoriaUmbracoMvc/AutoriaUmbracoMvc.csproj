@@ -228,6 +228,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\img\logo.png" />
     <Content Include="css\autoria.css" />
+    <Content Include="css\cursos.css" />
     <Content Include="css\contato.css" />
     <Content Include="css\dummy.txt" />
     <Content Include="css\interna.css" />
@@ -351,8 +352,11 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="macroScripts\HomeDestaques.cshtml" />
+    <Content Include="macroScripts\ListagemCursos.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Partials\Contato.cshtml" />
+    <Content Include="Views\NossosCursos.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
