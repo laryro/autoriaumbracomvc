@@ -7,6 +7,6 @@
 **/App_Data/[Pp]review/
 **/App_Data/TEMP/
 Cached/
-*.cache
+**.cache
 # Ignore Umbraco content cache file
 **/App_Data/umbraco.config
