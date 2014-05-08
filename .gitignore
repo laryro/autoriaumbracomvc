@@ -10,3 +10,5 @@ Cached/
 **.cache
 # Ignore Umbraco content cache file
 **/App_Data/umbraco.config
+
+AutoriaUmbracoMvc/obj/Debug/AutoriaUmbracoMvc.csproj.FileListAbsolute.txt
