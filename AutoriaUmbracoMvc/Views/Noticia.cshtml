@@ -3,9 +3,8 @@
 @{
     Layout = "Master.cshtml";
 }
-    
 
-<h1>Item notícia</h1>
-
-
-@Umbraco.RenderMacro("NoticiaConteudo")
+<div class="row destaque-noticia">
+    @Umbraco.RenderMacro("NoticiaConteudo")
+    @Umbraco.RenderMacro("PartialNoticias")
+</div>

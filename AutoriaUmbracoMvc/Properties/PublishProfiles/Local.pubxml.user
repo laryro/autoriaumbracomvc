@@ -55,7 +55,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:32:36</publishTime>
     </File>
     <File Include="bin/AutoriaUmbracoMvc.dll">
-      <publishTime>05/06/2014 15:00:40</publishTime>
+      <publishTime>05/09/2014 19:26:57</publishTime>
     </File>
     <File Include="bin/businesslogic.dll">
       <publishTime>05/05/2014 14:32:45</publishTime>
@@ -220,7 +220,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:35:05</publishTime>
     </File>
     <File Include="config/applications.config">
-      <publishTime>05/05/2014 21:32:32</publishTime>
+      <publishTime>05/08/2014 16:02:55</publishTime>
     </File>
     <File Include="config/BaseRestExtensions.config">
       <publishTime>05/05/2014 14:35:04</publishTime>
@@ -265,7 +265,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:35:04</publishTime>
     </File>
     <File Include="config/trees.config">
-      <publishTime>05/05/2014 21:32:32</publishTime>
+      <publishTime>05/08/2014 16:02:52</publishTime>
     </File>
     <File Include="config/umbracoSettings.config">
       <publishTime>05/05/2014 14:35:04</publishTime>
@@ -274,7 +274,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:35:04</publishTime>
     </File>
     <File Include="css/autoria.css">
-      <publishTime>05/05/2014 21:49:46</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
+    </File>
+    <File Include="css/contato.css">
+      <publishTime>05/07/2014 20:12:16</publishTime>
+    </File>
+    <File Include="css/cursos.css">
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="css/dummy.txt">
       <publishTime>05/05/2014 14:35:04</publishTime>
@@ -283,7 +289,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 21:31:44</publishTime>
     </File>
     <File Include="css/interna.css">
-      <publishTime>05/05/2014 21:11:37</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="css/lib/bootstrap-theme.min.css">
       <publishTime>05/03/2014 22:24:16</publishTime>
@@ -313,13 +319,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/04/2014 20:31:58</publishTime>
     </File>
     <File Include="macroScripts/Footer.cshtml">
-      <publishTime>05/03/2014 22:58:24</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="macroScripts/Header.cshtml">
-      <publishTime>05/05/2014 21:27:32</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
+    </File>
+    <File Include="macroScripts/HomeDestaques.cshtml">
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="macroScripts/InternaConteudo.cshtml">
       <publishTime>05/05/2014 21:42:29</publishTime>
+    </File>
+    <File Include="macroScripts/ListagemCursos.cshtml">
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="macroScripts/ListagemEventos.cshtml">
       <publishTime>05/05/2014 02:12:52</publishTime>
@@ -8059,7 +8071,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:34:55</publishTime>
     </File>
     <File Include="Views/Contato.cshtml">
-      <publishTime>05/04/2014 17:55:41</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="Views/Evento.cshtml">
       <publishTime>04/30/2014 15:46:34</publishTime>
@@ -8074,7 +8086,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 21:41:33</publishTime>
     </File>
     <File Include="Views/Home.cshtml">
-      <publishTime>05/05/2014 21:41:26</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="Views/Interna.cshtml">
       <publishTime>05/05/2014 00:18:49</publishTime>
@@ -8083,16 +8095,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/04/2014 20:41:46</publishTime>
     </File>
     <File Include="Views/Master.cshtml">
-      <publishTime>05/05/2014 21:31:58</publishTime>
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="Views/Metodologia.cshtml">
       <publishTime>05/05/2014 21:40:53</publishTime>
+    </File>
+    <File Include="Views/NossosCursos.cshtml">
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="Views/Noticia.cshtml">
       <publishTime>05/05/2014 21:41:04</publishTime>
     </File>
     <File Include="Views/Noticias.cshtml">
       <publishTime>05/05/2014 21:41:10</publishTime>
+    </File>
+    <File Include="Views/Partials/Contato.cshtml">
+      <publishTime>05/07/2014 20:12:16</publishTime>
     </File>
     <File Include="Views/Redirect.cshtml">
       <publishTime>05/04/2014 23:33:10</publishTime>
@@ -8101,7 +8119,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2014 14:34:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/06/2014 15:01:05</publishTime>
+      <publishTime>05/09/2014 19:29:04</publishTime>
     </File>
     <File Include="xslt/Web.config">
       <publishTime>05/05/2014 14:34:37</publishTime>

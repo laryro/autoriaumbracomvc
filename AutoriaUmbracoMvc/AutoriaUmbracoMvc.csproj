@@ -227,7 +227,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\img\logo.png" />
-    <Content Include="css\autoria.css" />
+    <Content Include="css\home.css" />
+    <Content Include="css\common.css" />
     <Content Include="css\cursos.css" />
     <Content Include="css\contato.css" />
     <Content Include="css\dummy.txt" />
@@ -253,6 +254,7 @@
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
@@ -354,6 +356,7 @@
   <ItemGroup>
     <Content Include="macroScripts\HomeDestaques.cshtml" />
     <Content Include="macroScripts\ListagemCursos.cshtml" />
+    <Content Include="macroScripts\PartialNoticias.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Partials\Contato.cshtml" />
     <Content Include="Views\NossosCursos.cshtml" />

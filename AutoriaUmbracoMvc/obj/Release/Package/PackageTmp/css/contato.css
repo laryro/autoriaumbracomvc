@@ -1,0 +1,114 @@
+.imagem-cima-contato {
+	height: 350px;
+	background:url(../../images/static/contato2.jpg) no-repeat top center;
+}
+
+.simple-form li
+{
+	min-height: 40px;
+    list-style: none;
+}
+
+div.anexo > a
+{
+	float: left;
+	margin-left: 24px;
+	margin-top: 2px;
+}
+
+div.anexo > span
+{
+	padding: 14px 8px;
+	float: left
+}
+
+span.mensagem
+{
+	color: #ff0000 !important;
+}
+
+li.mensagem textarea
+{
+	height: 200px;
+	resize: none;
+}
+
+label
+{
+	padding: 12px 16px !important;
+}
+
+input[type='text'], textarea, input[type='email']
+{
+	padding: 4px 4px;
+	border-color: #c2c2c2 !important;
+	border-width: 1px;
+}
+
+input[type='text']:focus, textarea:focus, input[type='text']:focus
+{
+	border-color: #c2c2c2
+}
+
+.ui-selectmenu
+{
+	height: 34px;
+	float: left;
+	border-color: #c2c2c2;
+	width: 200px !important;
+		border-width: 1px;
+}
+
+.ui-widget
+{
+	border-color: #c2c2c2 !important;
+	width: 200px !important;
+		border-width: 1px !important;
+}
+
+.ui-widget li a
+{
+	padding-left: 4px !important;
+	text-align: left;
+	width: 200px !important;
+		border-width: 1px !important;
+}
+
+span.ui-selectmenu-status
+{
+	padding: 8px 4px;
+	text-align: left;
+}
+
+div.localizacao-wrapper
+{
+	width: 100%;
+}
+
+div#map
+{
+	float:left;
+	width: 70%
+}
+
+div.coluna-endereco
+{
+	width: 30%;
+	float: left;
+}
+
+div.localizacao h3
+{
+	text-align: left
+}
+
+div.localizacao
+{
+	text-align: left !important;
+	padding-left: 16px;
+}
+
+div.localizacao p
+{
+	margin-bottom: 8px;
+}
