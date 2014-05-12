@@ -1,0 +1,9 @@
+.container > img {
+    width: 1000px;
+    margin-left: -15px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 3em;
+}

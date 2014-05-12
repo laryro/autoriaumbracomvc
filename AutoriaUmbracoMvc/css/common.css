@@ -143,3 +143,26 @@ h6 {
     width: 100px;
     margin: 0 10px 5px 0;
 }
+
+.richtext ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+.richtext ol > li {
+  margin: 0;
+  padding: 1em 0 0 2em;
+  text-indent: -1em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+.richtext ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}

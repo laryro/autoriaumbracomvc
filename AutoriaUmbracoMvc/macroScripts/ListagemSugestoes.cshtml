@@ -1,0 +1,31 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var sugestoes = Model.DescendantsOrSelf("SugestoesDeLeitura").FirstOrDefault();
+    var imagem = Library.MediaById(Model.imagem);
+
+}
+
+<img src="@imagem.Url" alt="@imagem.Name" />
+
+<h1>@Model.Titulo</h1>
+
+<div class="richtext">
+    @Model.descricao
+</div>
+
+@foreach (var item in sugestoes.Children())
+{
+    var imagemItem = Library.MediaById(item.imagem);
+    <div class="row ">
+        <div class="col-md-3 col-md-offset-1">
+            <img src="@imagemItem.Url" />
+        </div>
+        <div class="col-md-7">
+            <h2>@item.Name</h2>
+            <p>
+                @item.descricao
+            </p>
+        </div>
+    </div>
+}

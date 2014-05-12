@@ -1,0 +1,14 @@
+.col-md-4 {
+    margin: 10px 0;
+}
+.col-md-4 .img-thumbnail {
+    display: block;
+    height: 140px;
+}
+
+.col-md-4 .img-thumbnail img {
+    display: block;
+    margin: 0 auto;
+    max-height: 130px;
+    max-width: 100%;
+}

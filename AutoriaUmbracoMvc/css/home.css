@@ -3,3 +3,44 @@
     min-height: 200px;
     text-align: center;
 }
+
+
+.carousel {
+    width: 130%;
+    min-width: 500px;
+    max-height: 408px;
+    margin: 0 auto;
+    margin-left: -15%;
+    margin-bottom: 30px;
+}
+
+.carousel img {
+    width:100%;
+}
+
+.carousel-inner {
+    max-height: 400px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.carousel-caption {
+    left: auto;
+    right: 15%;
+    bottom: auto;
+    width: 40%;
+    top: 70px;
+}
+
+.carousel-caption > * {
+    text-shadow: 2px 2px 17px #000;
+    text-align: right;
+    color: #fff;
+}
+
+.carousel-caption > p {
+    font-size: 1.3em;
+}

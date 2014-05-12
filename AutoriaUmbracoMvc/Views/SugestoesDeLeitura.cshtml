@@ -2,3 +2,9 @@
 @{
     Layout = "Master.cshtml";
 }
+
+@section Css {
+    <link href="~/css/sugestoes.css" rel="stylesheet" />
+}
+
+@Umbraco.RenderMacro("ListagemSugestoes")
