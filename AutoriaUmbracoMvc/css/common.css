@@ -2,7 +2,7 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -200px;
+    margin: 0 auto -300px;
 }
 
 main .container {
@@ -17,10 +17,28 @@ header .container {
 
 footer {
     background-color: #092E68;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+footer ul li {
+    padding: 10px 0 0 0;
+}
+
+footer a {
+    color: #fff;
 }
 
 footer, #push {
-    height: 200px;
+    height: 300px;
 }
 
 header.navbar-default {
