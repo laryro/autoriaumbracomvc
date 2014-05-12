@@ -1,15 +1,32 @@
 @inherits umbraco.MacroEngines.DynamicNodeContext
 
-@*
-	Model = The current page the macro is executed on
-			@Model.bodyText
+@{
+    var eventos = Model.DescendantsOrSelf("Eventos").FirstOrDefault();
+    var json = "[";
+    var node = new umbraco.NodeFactory.Node(Model.Id);
+    var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
 
-	Parameter = collection of parameter values passed from the macro
-			@Paramter.myParam
+    foreach (var item in eventos.Children())
+    {
+        json += 
+            "{" +
+            "\"date\": \"" + item.dataHora.ToString("yyyy-MM-dd HH:mm:ss") + "\"," +
+            "\"title\": \"" + item.Titulo + "\"," +
+            "\"description\": \"" + item.descricao + "\"," +
+            "\"url\": \"" + item.link + "\"" +
+            "},";
+    }
 
-    Library = utillity library with common methods
-    		@Library.NodeById(1233)
-*@
+    
+    json += "{}]";
+}
 
-@* The fun starts here *@
+<input type="hidden" id="eventos" value="@json" />
 
+<div class="calendar-wrapper">
+    <div id="eventCalendarOnlyOneDescription"></div>
+</div>
+<div class="horarios-aula">
+    <h3>Horários de aula</h3>
+    @Model.horariosDeAula
+</div>

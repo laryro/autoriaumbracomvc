@@ -1,0 +1,105 @@
+﻿
+
+.calendar-wrapper .eventCalendar-wrap {
+	box-shadow: none;
+	width: 900px;
+	border: none;
+	position: relative !important; 
+}
+.calendar-wrapper .eventCalendar-wrap .eventsCalendar-slider .eventsCalendar-monthWrap,
+.calendar-wrapper .eventCalendar-wrap .eventsCalendar-slider .eventsCalendar-monthWrap .eventsCalendar-currentTitle {
+	position: relative;
+}
+
+.calendar-wrapper .eventCalendar-wrap .eventsCalendar-slider {
+	width: 340px;
+	position: relative;
+	height: 280px !important;
+	float: left;
+}
+
+.calendar-wrapper .eventCalendar-wrap .eventsCalendar-slider .eventsCalendar-monthWrap {
+	width: 340px !important;
+	border: solid 1px #d3d3d3;
+	border-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+}
+
+.calendar-wrapper .eventCalendar-wrap .eventsCalendar-list-wrap {
+	top: 0;
+	left: auto;
+	right: 0;
+	position: relative;
+	width: 500px !important;
+	float: right;
+	min-height: 370px;
+}
+
+.calendar-wrapper .eventsCalendar-daysList.showAsWeek {
+	margin: 10px 0 0 0;
+	border-radius: 5px;
+	background: #f4f4f4;
+}
+
+.calendar-wrapper .eventsCalendar-currentTitle {
+	background: #092E68;
+	outline: none;
+	border: none;
+	padding: 3px 0;
+	border-radius: 5px;
+}
+
+.eventsCalendar-daysList li.dayWithEvents a {
+	background-color: #092E68 !important;
+    box-shadow: none !important;
+    text-shadow: 0px 0px 8px #fff !important;
+}
+
+.eventsCalendar-daysList li.dayWithEvents a:hover {
+	background-color: #415695 !important;
+}
+
+.eventsCalendar-daysList li.current a {
+	color: #fff;
+	background: #415695;
+	box-shadow: inset 5px 5px 24px rgba(255, 255, 255, 0.4) !important;
+	text-shadow:none;
+}
+
+.calendar-wrapper .eventsCalendar-list li {
+	text-align: left;
+}
+.horarios-aula {
+	width: auto;
+	float: left;
+}
+.horarios-aula h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.eventCalendar-wrap .arrow.prev {
+	left: 12px;
+}
+
+.eventCalendar-wrap .arrow.prev,
+.eventCalendar-wrap .arrow.next {
+	top: 12px;
+}
+.eventCalendar-wrap .arrow.next {
+	right: 12px;
+}
+
+
+.eventsCalendar-daysList li.today a,
+.eventsCalendar-daysList li.today a {
+	background: transparent !important;
+	border-color: #092E68;
+	color: #092E68 !important;
+}
+.horarios-aula table {
+    width: 390px;
+    font-size: 13px;
+}
