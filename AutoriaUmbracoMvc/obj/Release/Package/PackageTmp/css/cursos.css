@@ -2,8 +2,10 @@ img {
     width: 100%;
 }
 .row {
-    padding: 0 30px;
+    padding: 50px 30px 0  30px;
+    text-align: center;
 }
-.col-md-8 {
-    padding-top: 50px;
+
+main .container {
+    padding-bottom: 80px;
 }

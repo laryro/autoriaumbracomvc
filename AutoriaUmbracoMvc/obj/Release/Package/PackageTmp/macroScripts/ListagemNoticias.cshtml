@@ -2,22 +2,25 @@
 
 @{
     var noticias = Model.DescendantsOrSelf("Noticias").FirstOrDefault();
-    var qtdDestaques = Model.qtdDestaques;
-    var i = 0;
+    
+    var destaque = noticias.Children().FirstOrDefault();
+    var imgDestaque = Library.MediaById(destaque.imagemChamada);
+    var dataDestaque = destaque.dataHora.ToString("dd/MM/yyyy");
+    var horaDestaque = destaque.dataHora.ToString("HH:mm:ss");
+
 }
 
-qtdDestaques : @qtdDestaques
-<ul>
-        
-    @foreach (var noticia in noticias.Children.Take(qtdDestaques))
-    {
-        var datahora = noticia.dataHora;
-        var hora = datahora.ToString("HH:mm:ss");
-        var data = datahora.ToString("dd/MM/yyyy");
-        <li>
-            <a href="@noticia.Url">@noticia.Name</a><br />
-            em @data às @hora
-        </li>
-        i++;
-    }
-</ul>
+<div class="col-md-8">
+    <h2 class="text-left">
+        @destaque.Titulo
+        <small class="block">@destaque.chamadaNoticia</small>
+    </h2>
+    <p>São Paulo, SP</p>
+    <p><small>em @dataDestaque às @horaDestaque</small></p>
+    <img src="@imgDestaque.Url" alt="@imgDestaque.Name" class="img-destaque-noticia" />
+
+    <div class="richtext">
+        @destaque.conteudo
+    </div>
+
+</div>

@@ -1683,3 +1683,5 @@ ClientConnectionId:00000000-0000-0000-0000-000000000000
 2014-05-11 23:24:02,620 [15] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2012' with Id '0' has been published.
 2014-05-11 23:24:03,441 [15] INFO  Umbraco.Core.PluginManager - [Thread 74] Starting resolution types of umbraco.interfaces.ICacheRefresher
 2014-05-11 23:24:03,444 [15] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2014-05-11 23:41:48,334 [15] INFO  umbraco.BusinessLogic.Log - [Thread 72] Log scrubbed.  Removed all items older than 2014-03-12 23:41:48
+2014-05-11 23:41:48,335 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 72] Application shutdown. Reason: BinDirChangeOrDirectoryRename

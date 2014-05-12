@@ -227,6 +227,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\img\logo.png" />
+    <Content Include="css\provas.css" />
     <Content Include="css\faqs.css" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\lib\idangerous.swiper.css" />
@@ -249,6 +250,7 @@
     <Content Include="media\dummy.txt" />
     <Content Include="scripts\dummy.txt" />
     <Content Include="scripts\faqs.js" />
+    <Content Include="scripts\provas.js" />
     <Content Include="scripts\lib\bootstrap.min.js" />
     <Content Include="scripts\lib\idangerous.swiper-2.1.min.js" />
     <Content Include="scripts\lib\jquery-1.9.1.min.js" />
@@ -371,12 +373,14 @@
     <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="macroScripts\HomeBanner.cshtml" />
+    <Content Include="macroScripts\ProvaConteudo.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Partials\Contato.cshtml" />
     <Content Include="Views\NossosCursos.cshtml" />
     <Content Include="Views\SugestoesDeLeitura.cshtml" />
     <Content Include="Views\TendenciasDosVestibulares.cshtml" />
     <Content Include="Views\ProvasComentadas.cshtml" />
+    <Content Include="Views\ItemProva.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

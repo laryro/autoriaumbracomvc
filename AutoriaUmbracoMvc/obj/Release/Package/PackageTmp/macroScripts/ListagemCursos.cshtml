@@ -8,10 +8,11 @@
 
 <h1>@Model.titulo</h1>
 
-<div class="row">
-    @foreach (var curso in Model.Children())
-    {
-        var imagemCurso = Library.MediaById(curso.imagem);
+
+@foreach (var curso in Model.Children())
+{
+    var imagemCurso = Library.MediaById(curso.imagem);
+    <div class="row">
         <div class="col-md-4">
             <img src="@imagemCurso.Url" />
         </div>
@@ -19,6 +20,6 @@
             <p>
                 @curso.descricao
             </p>
-        </div>   
-    }
-</div>
+        </div>
+    </div>
+}
