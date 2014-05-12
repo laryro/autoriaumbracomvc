@@ -227,6 +227,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\img\logo.png" />
+    <Content Include="css\eventos.css" />
+    <Content Include="css\lib\eventCalendar.css" />
+    <Content Include="css\lib\eventCalendar_theme.css" />
     <Content Include="css\provas.css" />
     <Content Include="css\faqs.css" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
@@ -249,7 +252,9 @@
     <Content Include="masterpages\dummy.txt" />
     <Content Include="media\dummy.txt" />
     <Content Include="scripts\dummy.txt" />
+    <Content Include="scripts\eventos.js" />
     <Content Include="scripts\faqs.js" />
+    <Content Include="scripts\lib\jquery.eventCalendar.js" />
     <Content Include="scripts\provas.js" />
     <Content Include="scripts\lib\bootstrap.min.js" />
     <Content Include="scripts\lib\idangerous.swiper-2.1.min.js" />
