@@ -1,0 +1,23 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var tendencias = Model.DescendantsOrSelf("TendenciasDosVestibulares").FirstOrDefault();
+    var imagem = Library.MediaById(Model.imagem);
+
+}
+
+<img src="@imagem.Url" alt="@imagem.Name" />
+
+<h1>@Model.Titulo</h1>
+
+<div class="richtext">
+    @Model.conteudo
+</div>
+
+@foreach (var item in tendencias.Children())
+{
+    <h2>@item.Name</h2>
+    <div class="richtext">
+        @item.Conteudo
+    </div>
+}

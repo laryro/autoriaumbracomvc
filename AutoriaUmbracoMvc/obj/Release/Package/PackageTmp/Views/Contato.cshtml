@@ -1,6 +1,10 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using AutoriaUmbracoMvc.Models
 @{
     Layout = "Master.cshtml";
+    var model = new ContatoModel();
 }
+
+@Html.Partial("Contato", model)
 
 @Umbraco.RenderMacro("ContatoConteudo")

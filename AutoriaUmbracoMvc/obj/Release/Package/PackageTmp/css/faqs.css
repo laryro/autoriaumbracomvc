@@ -1,0 +1,11 @@
+.container > img {
+    width: 1000px;
+    margin-left: -15px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: left;
+    padding-right: 40px;
+    cursor: pointer;
+}

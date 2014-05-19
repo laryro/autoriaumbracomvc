@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<AutoriaUmbracoMvc.Models.ContatoModel>
+
+@using (Html.BeginUmbracoForm("Contato", "Contato", null, new { role="form" }, FormMethod.Post ))
+{
+    
+    <h1>Contato</h1>
+    <p>Preencha os campos abaixo para nos enviar um e-mail</p>
+    <fieldset class="row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Nome)
+            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Telefone)
+            @Html.TextBoxFor(m => m.Telefone, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Celular)
+            @Html.TextBoxFor(m => m.Celular, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Assunto)
+            @Html.DropDownListFor(m => m.Assunto, Model.Assuntos, new { @class = "form-control" })
+        </div>
+        <div class="mensagem form-group col-md-6">
+            @Html.LabelFor(m => m.Mensagem)
+            @Html.TextAreaFor(m => m.Mensagem, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-primary pull-right mg_20">
+            Enviar
+        </button>
+    </fieldset>
+
+}

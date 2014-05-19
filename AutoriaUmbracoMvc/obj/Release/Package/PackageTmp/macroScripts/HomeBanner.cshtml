@@ -1,0 +1,60 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var banners = Model.DescendantsOrSelf("Banners").FirstOrDefault().Children();
+    var qtdBanners = banners.Count();
+}
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        @for (var i = 0; i < qtdBanners; i++)
+        {
+            <li data-target="#carousel-example-generic" data-slide-to="@i" @(i==0?"class=active" : "") ></li>
+        }
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        @{var cnt = 0;}
+        @foreach (var item in banners)
+        {
+            var img = Library.MediaById(item.imagem);
+            string descricao = item.descricao;
+            var idLinkInterno = item.linkInterno;
+            var linkExterno = item.linkExterno;
+
+            <div class="item @(cnt == 0 ? "active" :"") ">
+                <img src="@img.Url" alt="@img.Name">
+                <div class="carousel-caption">
+                    <p><small>@item.assunto</small></p>
+                    <h1>@item.titulo</h1>
+                    @if (!descricao.IsEmpty())
+                    {
+                        <p>@descricao</p>
+                    }
+                    @if (idLinkInterno != "")
+                    {
+                        var link = Library.NodeById(idLinkInterno);
+                        <p><a href="@link.Url">Saiba mais</a></p>
+                    }
+                    else if (linkExterno != "")
+                    {
+                        <p><a href="@linkExterno" target="_blank">Saiba mais</a></p>
+                    }
+                </div>
+            </div>
+            
+            cnt++;
+        }
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>

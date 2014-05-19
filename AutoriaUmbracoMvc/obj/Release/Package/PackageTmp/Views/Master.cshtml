@@ -20,7 +20,7 @@
 
     <link href="~/css/lib/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/fonts.css" rel="stylesheet" />
-    <link href="~/css/autoria.css" rel="stylesheet" />
+    <link href="~/css/common.css" rel="stylesheet" />
     <link href="~/css/richtext.css" rel="stylesheet" />
     @RenderSection("Css", false)
     
@@ -36,11 +36,14 @@
 
     @Umbraco.RenderMacro("Header")
     
-    <main class="container">
-        @RenderBody()
+    <main>
+        <div class="container">
+            @RenderBody()
+        </div>
+        <div id="push"></div>
     </main>
 
-    @Umbraco.RenderMacro("Header")
+    @Umbraco.RenderMacro("Footer")
 
 </body>
 </html>

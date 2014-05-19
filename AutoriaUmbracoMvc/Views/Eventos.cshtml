@@ -2,3 +2,18 @@
 @{
     Layout = "Master.cshtml";
 }
+
+@section Scripts {
+    <script src="~/scripts/lib/jquery.eventCalendar.js"></script>
+    <script src="~/scripts/eventos.js"></script>
+}
+
+@section Css {
+    <link href="~/css/lib/eventCalendar.css" rel="stylesheet" />
+    <link href="~/css/lib/eventCalendar_theme.css" rel="stylesheet" />
+    <link href="~/css/eventos.css" rel="stylesheet" />
+}
+
+<h1>Grade de horários</h1>
+
+@Umbraco.RenderMacro("ListagemEventos")

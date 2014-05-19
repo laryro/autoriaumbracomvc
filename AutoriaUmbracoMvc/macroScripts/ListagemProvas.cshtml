@@ -1,0 +1,21 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var provas = Model.DescendantsOrSelf("ProvasComentadas").FirstOrDefault().Children();
+}
+
+<h1>Provas comentadas</h1>
+
+<div class="well">
+    <div class="row">
+        @foreach (var item in provas)
+        {
+            var imagem = Library.MediaById(item.imagem);
+            <div class="col-md-4">
+                <a href="@item.Url" class="img-thumbnail">
+                    <img src="@imagem.Url" alt="@imagem.Name" />
+                </a>
+            </div>
+        }
+    </div>
+</div>

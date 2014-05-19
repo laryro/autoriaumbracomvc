@@ -3,7 +3,7 @@
     var paginas = Model.AncestorOrSelf().Children;
 }
 
-<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+<header class="navbar navbar-default" role="navigation">
     <div class="navbar-inner">
         <div class="container">
             <nav class="navbar-header">
@@ -20,7 +20,7 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    @foreach (var pagina in paginas.Where("documentTypeAlias != \"Banners\""))
+                    @foreach (var pagina in paginas.Where("documentTypeAlias != \"ConfiguracoesDaHome\""))
                     {
                         if (pagina.Name == "Servicos")
                         {

@@ -1,11 +1,26 @@
 ﻿@inherits umbraco.MacroEngines.DynamicNodeContext
 
+@{
+    
 
-<h1>Notícias</h1>
+    var destaque = Model;
+    var imgDestaque = Library.MediaById(destaque.imagemChamada);
+    var dataDestaque = destaque.dataHora.ToString("dd/MM/yyyy");
+    var horaDestaque = destaque.dataHora.ToString("HH:mm:ss");
 
-<h2>@Model.Name</h2>
-<h3>@*Por: @umbraco.BusinessLogic.User.GetUser(Int32.Parse(i.blogAuthor)).Name às @Model.DataHora*@</h3>
+}
 
-<div class="well richtext">
-    @Model.Conteudo
+<div class="col-md-8">
+    <h2 class="text-left">
+        @destaque.Titulo
+        <small class="block">@destaque.chamadaNoticia</small>
+    </h2>
+    <p>São Paulo, SP</p>
+    <p><small>em @dataDestaque às @horaDestaque</small></p>
+    <img src="@imgDestaque.Url" alt="@imgDestaque.Name" class="img-destaque-noticia" />
+
+    <div class="richtext">
+        @destaque.conteudo
+    </div>
+
 </div>

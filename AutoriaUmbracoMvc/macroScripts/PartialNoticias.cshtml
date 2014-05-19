@@ -1,0 +1,33 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var root = Model.AncestorOrSelf().Children;
+    var noticias = root.Where("documentTypeAlias == \"Noticias\"").FirstOrDefault() ;
+    
+    var qtdDestaques = noticias.qtdDestaques;
+}
+
+<aside class="col-md-3 noticias-listagem">
+
+    <ul>
+
+        @foreach (var noticia in noticias.Children.Take(qtdDestaques))
+        {
+            var datahora = noticia.dataHora;
+            var hora = datahora.ToString("HH:mm:ss");
+            var data = datahora.ToString("dd/MM/yyyy");
+            var imagem = Library.MediaById(noticia.imagemChamada);
+            var titulo = noticia.titulo;
+            string tituloCortado = titulo.Substring(0, Math.Min(titulo.Length, 70));
+            tituloCortado = titulo.Length > 70 ? tituloCortado + "..." : titulo;
+            
+            <li>
+                <a href="@noticia.Url" class="clearfix block">
+                    <img src="@imagem.Url" class="pull-left block" alt="@imagem.Name" />
+                    <small>@tituloCortado</small>
+                </a>
+                <p><small>@data às @hora</small></p>
+            </li>
+        }
+    </ul>
+</aside>

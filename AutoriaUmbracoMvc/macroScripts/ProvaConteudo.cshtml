@@ -1,0 +1,27 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var provas = Model.DescendantsOrSelf("ItemProva").FirstOrDefault().Children();
+}
+
+<h1>Prova Comentada - @Model.Titulo</h1>
+
+<div class="tabs">
+    <ul class="nav nav-tabs">
+        @foreach (var item in provas)
+        {
+            <li><a href="#@item.ano" data-toggle="tab">@item.ano</a></li>
+
+        }
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        @foreach (var item in provas)
+        {
+            <div class="tab-pane fade" id="@item.ano">
+                @item.conteudo
+            </div>
+        }
+    </div>
+</div>

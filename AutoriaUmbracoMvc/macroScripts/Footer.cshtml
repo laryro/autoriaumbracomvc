@@ -1,10 +1,32 @@
 ﻿@inherits umbraco.MacroEngines.DynamicNodeContext
 @{
-    var paginas = Model.Children;
+    var paginas = Model.AncestorOrSelf().Children;
 }
 <footer>
 
     <div class="container">
-        footer
+        <ul>
+            @foreach (var pagina in paginas.Where("documentTypeAlias != \"ConfiguracoesDaHome\""))
+            {
+                if (pagina.Name != "Servicos")
+                {
+                   <li>
+                       <a href="@pagina.Url">@pagina.Titulo</a>
+                   </li>                
+                }
+            }
+        </ul>
+        <ul class="servicos">
+            <li>
+                Serviços
+            </li>
+
+            @foreach (var filho in paginas.Where("documentTypeAlias == \"Redirect\"").FirstOrDefault().Children())
+            {
+                <li><a href="@filho.Url">@filho.titulo</a></li>
+            }
+                
+            
+        </ul>
     </div>
 </footer>
