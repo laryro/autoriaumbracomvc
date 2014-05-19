@@ -219,6 +219,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Helpers.cs" />
+    <Compile Include="Models\EnvieRedacaoModel.cs" />
     <Compile Include="Models\ContatoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -357,6 +359,8 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Partials\Contato.cshtml" />
     <Content Include="Views\NossosCursos.cshtml" />
+    <Content Include="Views\EnvieRedacao.cshtml" />
+    <Content Include="Views\Partials\EnvieSuaRedacao.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<AutoriaUmbracoMvc.Models.EnvieRedacaoModel>
+@using AutoriaUmbracoMvc.Helpers
+
+@using (Html.BeginUmbracoForm("EnviaRedacao", "Contato", null, new { role = "form" }))
+{
+
+    <h1>Contato</h1>
+    <p>Preencha os campos abaixo para nos enviar um e-mail</p>
+    <fieldset class="row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Anexo)
+            @Html.FileUploadFor(m => m.Anexo, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-primary pull-right mg_20">
+            Enviar
+        </button>
+    </fieldset>
+
+}
