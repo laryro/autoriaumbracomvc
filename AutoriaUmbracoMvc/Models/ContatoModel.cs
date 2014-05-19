@@ -10,15 +10,16 @@ namespace AutoriaUmbracoMvc.Models
 {
     public class ContatoModel
     {
-        public ContatoModel() {
-            var cidade = new Dictionary<string, string>();
 
-            cidade.Add("Dúvidas", "Dúvidas");
-            cidade.Add("Reclamações", "Reclamações");
-            cidade.Add("Sugestões", "Sugestões");
+        public ContatoModel() {
+            var assunto = new Dictionary<string, string>();
+
+            assunto.Add("Dúvidas", "Dúvidas");
+            assunto.Add("Reclamações", "Reclamações");
+            assunto.Add("Sugestões", "Sugestões");
 
             this.Assuntos = new SelectList(
-            cidade.Select(x => new { value = x.Key, text = x.Value }), "value", "text"); 
+            assunto.Select(x => new { value = x.Key, text = x.Value }), "value", "text"); 
         }
        
         [Required(ErrorMessage = "Campo Nome obrigatório"), RegularExpression(@"^[^0-9]{1,}", ErrorMessage = "Nome inválido")]

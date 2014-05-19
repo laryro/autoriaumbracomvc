@@ -1,5 +1,12 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using AutoriaUmbracoMvc.Models
 @{
     Layout = "Master.cshtml";
+    var model = new EnvieRedacaoModel();
 }
 
+@section Scripts {
+    <script src="~/scripts/contato.js"></script>
+}
+
+@Html.Partial("EnvieSuaRedacao", model)

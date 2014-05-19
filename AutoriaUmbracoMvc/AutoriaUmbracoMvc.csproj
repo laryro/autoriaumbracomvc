@@ -256,7 +256,9 @@
     <Content Include="scripts\dummy.txt" />
     <Content Include="scripts\eventos.js" />
     <Content Include="scripts\faqs.js" />
+    <Content Include="scripts\contato.js" />
     <Content Include="scripts\lib\jquery.eventCalendar.js" />
+    <Content Include="scripts\lib\jquery.maskedinput.min.js" />
     <Content Include="scripts\provas.js" />
     <Content Include="scripts\lib\bootstrap.min.js" />
     <Content Include="scripts\lib\idangerous.swiper-2.1.min.js" />
@@ -277,6 +279,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="assets\fonts\" />
+    <Folder Include="UserUploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -384,15 +387,12 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Partials\Contato.cshtml" />
     <Content Include="Views\NossosCursos.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\EnvieRedacao.cshtml" />
     <Content Include="Views\Partials\EnvieSuaRedacao.cshtml" />
-=======
     <Content Include="Views\SugestoesDeLeitura.cshtml" />
     <Content Include="Views\TendenciasDosVestibulares.cshtml" />
     <Content Include="Views\ProvasComentadas.cshtml" />
     <Content Include="Views\ItemProva.cshtml" />
->>>>>>> b54ec2fb6009399ed8b5ae6f0819a47a54751e73
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

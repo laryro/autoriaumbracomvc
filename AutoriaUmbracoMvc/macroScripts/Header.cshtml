@@ -20,7 +20,7 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    @foreach (var pagina in paginas.Where("documentTypeAlias != \"ConfiguracoesDaHome\""))
+                    @foreach (var pagina in paginas.Where("documentTypeAlias != \"ConfiguracoesDaHome\"").Where("documentTypeAlias != \"EnvieRedacao\""))
                     {
                         if (pagina.Name == "Servicos")
                         {
